@@ -9,6 +9,10 @@ Find the related medium blogpost [here](https://jannis-j.medium.com/engaging-cus
 Acquiring new customers and engaging existing customers is a core activity for any business. In this project I am taking two approaches to support these activities with unsupervised and supervised machine learning to create a more efficient process that yields higher conversion.
 # Data source
 The data was supplied by a company supplying financial services. Since the data is confidential it is not provided in the repository.
+# Results
+The unsupervised clustering of population demographics yielded 12 nicely distributed clusters. The clustering on the customer data resulted in one main cluster within the customers which is a very good result to work with in a business context.
+
+Among the supervised prediction of customer responses the support vector regression yielded a better average ROC score of 0.6248 compared to the ramdom forest regressor with 0.5895. Since it also trains faster it is the prefered method. The model achieved a score of 0.56572 in the [kaggle competition](https://www.kaggle.com/c/udacity-arvato-identify-customers/overview)
 # Conclusion
 The unsupervised clustering of customers worked very well as I was able to extract one main cluster that the customers belong to compared to the general population. This will enable the company to target new customers very well and drive conversion up.
 
